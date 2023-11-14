@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Egi Vrinaldi_0110223153_UTSFORM13</title>
+    <style>
+        .form-container{
+            background-color: beige;
+            border: 2px solid blueviolet;
+            border-radius: 10px;
+            box-shadow: 0 0 10px red;
+            padding: 20px;
+            width: 400px;
+            margin: 100px auto;
+        }
+        label{
+            display: inline-block;
+            width: 120px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="form-container">
+        <form method="post">
+        <div class="search"></div>
+        <label for="Cari Sivitas Akademika">Cari Sivitas Akademika</label>
+        <input type="search" id="search">
+        <table>
+            <tr>
+                <td>Nama Lengkap</td>
+                <td>:</td>
+                <td>Egi Vrinaldi Adam Ferdiansyah</td>
+            </tr>
+            <tr>
+                <td>Asal Prodi</td>
+                <td>:</td>
+                <td>Teknik Informatika</td>
+            </tr>
+            <tr>
+                <td>Status</td>
+                <td>:</td>
+                <td>Mahasiswa</td>
+            </tr>
+        </table>
+        <div class="form-group">
+            <div class="label">
+            <label for="jenis_kendaraan"> Jenis Kendaraan </label> 
+            </div>
+            <input class="input" type="radio" id="motor" name="jenis_kendaraan" required> <label for="motor">Motor</label>
+            <input class="input" type="radio" id="mobil" name="jenis_kendaraan" required> <label for="mobil">Mobil</label>
+        </div>
+        <div class="form-group"></div>
+        <label for="NoPol">NoPol</label>
+        <input type="text" id="Nopol">
+
+        <div class="form-group"></div>
+        <label for="Merk">Merk</label>
+        <input type="text" id="Merk">
+
+        <div class="form-group"></div>
+        <label for="Upload STNK">Upload STNK</label>
+        <input type="text" id="Upload STNK">
+
+        <div class="button-simpan">
+        <input type="submit" value="Browse">
+        </div>
+
+        <div class="button-batal">
+        <input type="submit" value="Daftar">
+        </div>  
+
+        </form>
+    </div>
+</body>
+</html>
